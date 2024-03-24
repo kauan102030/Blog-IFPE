@@ -24,7 +24,7 @@ function AdicionarUsuario(){
 
     var usuarioExistente = false;
         for (var i = 0; i < nome1.length; i++) {
-            if (nome1[i].textContent === nome || username1[i].textContent === username || email1[i].textContent === email) {
+            if (username1[i].textContent === username || email1[i].textContent === email) {
                 usuarioExistente = true;
                 break;
             }
