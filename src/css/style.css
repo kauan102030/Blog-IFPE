@@ -1,0 +1,190 @@
+/*Corpo da página*/
+body{
+    background-color: rgb(220, 220, 220);
+}
+.geral{
+    width: 900px;
+    height: 620px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/*cabecalho da página*/
+header .logo{
+    text-align: right;
+}
+
+header .titulo{
+    color: #008f39;
+    font-size: 20px;
+    font-family: "Laila", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*main da página - formulario*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 2%;
+}
+
+.formulario h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008f39;
+}
+
+.formulario .input{
+    padding: 10px;
+    border: 1px solid #008f39;
+    border-radius: 20px;
+    color: #000;
+}
+
+.formulario .butao button{
+    padding: 5px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.formulario .butao button:hover{
+    padding: 6px 16px;
+}
+
+.formulario .butao button:nth-of-type(1) {
+    background-color: #e807229a;
+}
+
+.formulario .butao button:nth-of-type(1):hover{
+    background-color: #b3092bec;
+
+}
+
+.formulario .butao button:nth-of-type(2) {
+    background-color: #038236ab;
+}
+
+.formulario .butao button:nth-of-type(2):hover {
+    background-color: #036b2db2;
+}
+
+/*main da página - usuário*/
+
+.cadastro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.cadastro .subtitulo h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008f39;
+}
+
+.cadastro .butao button{
+    padding: 5px 15px;
+    background-color: #04692db8;
+    color: #ffffff;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cadastro .butao button:hover{
+    padding: 6px 16px;
+    background-color: #024e21e3;
+}
+
+.usuario input{
+    border: none;
+    border-bottom:1px solid #999999;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.5%;
+    background-color: rgb(240, 240, 240);
+    color: #000;
+}
+
+.usuario .no-usuario{
+    padding: 10px;
+    background-color: #c3040443;
+    margin-top: 0.5%;
+}
+
+.usuario .no-usuario h5{
+    color: #87041e;
+}
+.usuario .tabela{
+    margin-top: 0.5%;
+}
+
+.usuario .tabela table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.usuario .tabela table tr td{
+    border-bottom: 1px solid #999999;
+    padding: 5px;
+}
+
+.usuario .tabela table .cabecalho td{
+    background-color: #04692db8;
+}
+
+.usuario .tabela table .cabecalho td{
+    color: #fff;
+    padding: 2px 5px;
+}
+
+table{
+    color: #008f39;
+}
+
+table .pesquisar{
+    color: #403040;
+    cursor: pointer;
+}
+
+table .pesquisar:hover{
+    color: #000;
+}
+
+.editar svg{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.editar svg:hover{
+    height: 16.5px;
+    width: 16.5px;
+}
+
+.editar svg:nth-of-type(1) {
+    color: rgb(9, 9, 197);
+    cursor: pointer;
+}
+
+.editar svg:nth-of-type(1):hover {
+    color: rgb(3, 3, 147);
+}
+
+.editar svg:nth-of-type(2){
+    color: #ca052c;
+}
+
+.editar svg:nth-of-type(2):hover{
+    color: #8b0621;
+}
