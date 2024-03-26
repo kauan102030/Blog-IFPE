@@ -1,0 +1,64 @@
+@media (max-width: 1024px) {
+    .geral{
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 890px) {
+    .geral{
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .geral{
+        width: 600px;
+    }
+}
+
+@media (max-width: 650px) {
+    .geral{
+        width: 500px;
+    }
+    .formulario .input{
+        padding: 8px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .tabela tr td{
+        font-size: 13px;
+    }
+    .formulario .butao button{
+        padding: 4px 10px;
+    }
+    .formulario .butao button:hover{
+        padding: 5px  11px;
+    }
+    .cadastro .butao button{
+        padding: 4px 8px;
+    }
+    .cadastro .butao button:hover{
+        padding: 5px  9px;
+    }
+}
+
+@media (max-width: 550px) {
+    .geral{
+        width: 400px;
+    }
+    .tabela tr td{
+        font-size: 11px;
+    }
+    .tabela tr td svg{
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .geral{
+        width: 300px;
+    }
+}
