@@ -47,6 +47,7 @@
 @media (max-width: 550px) {
     .geral{
         width: 400px;
+        heigth: 550px;
     }
     .tabela tr td{
         font-size: 11px;
