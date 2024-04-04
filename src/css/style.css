@@ -167,11 +167,6 @@ table .pesquisar:hover{
     transition: 0.2s;
 }
 
-.editar svg:hover{
-    height: 16.5px;
-    width: 16.5px;
-}
-
 .editar svg:nth-of-type(1) {
     color: rgb(9, 9, 197);
     cursor: pointer;
